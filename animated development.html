@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- typed js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.2/typed.js" integrity="sha512-czS2hv7J6JWyaQyLkBm9/5POh0ADLqOn0Nutu0Pz2GeZyA6kMv7hIUGGvrF8F3ZyivBWMTjAttfZ1ye+V5ddgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+
+        .main{
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            /* background-color: #200589; */
+            background-color: #7d12fffa;
+            transition-duration: 2s;        
+        }
+
+        .message {
+            font-size: 400%;
+            color: #f5f5f5;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition-duration: 2s;
+            font-weight: 500;
+        }
+
+
+        .purple {
+            color: #7d12fffa;
+            transition-duration: 2s;
+        }
+        .message:hover {
+            color: #101111;
+            transition-duration: 2s;
+        }
+
+        .white {
+            background-color: #f5f5f5;
+            transition-duration: 2s;
+        }
+
+        @media (max-width: 600px) and (min-width: 0px)  {
+            .message {
+            font-size: 240%;
+            }
+        }
+    </style>
+    <title>Sandeep Shrestha</title>
+</head>
+<body>
+    <div class="main" id="main">
+
+        <!-- <p class="message" id="message">The website is under development.</p> -->
+        <p class="message" id="message"></p>
+
+    </div>
+
+
+    <script>
+        //  typing effect
+        var typed = new Typed(".message", {
+        strings: ["The website is under development."],
+        typeSpeed: 80,
+        showCursor: false,
+        });
+    </script>
+
+    <!-- <script defer>
+        const message = document.querySelector("#message");
+        const main = document.querySelector("#main");
+        
+        function changeColor() {
+            message.classList.toggle('purple');
+            main.classList.toggle('white');
+        }
+
+        setInterval(changeColor,4000);
+        changeColor();
+    </script> -->
+</body>
+</html>
