@@ -805,20 +805,12 @@ video {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-\[url\(\'\.\.\/img\/sandeepshrestha\.jpg\'\)\] {
-  background-image: url('../img/sandeepshrestha.jpg');
+.bg-\[url\(\'\.\.\/img\/sandeep2\.jpg\'\)\] {
+  background-image: url('../img/sandeep2.jpg');
 }
 
 .bg-\[url\(\'\.\.\/img\/contact\.jpg\'\)\] {
   background-image: url('../img/contact.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/sandeep\.jpg\'\)\] {
-  background-image: url('../img/sandeep.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/sandeep2\.jpg\'\)\] {
-  background-image: url('../img/sandeep2.jpg');
 }
 
 .bg-cover {
@@ -827,10 +819,6 @@ video {
 
 .bg-fixed {
   background-attachment: fixed;
-}
-
-.bg-right {
-  background-position: right;
 }
 
 .bg-center {
@@ -966,11 +954,6 @@ video {
   line-height: 1rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-semibold {
   font-weight: 600;
 }
@@ -1076,6 +1059,16 @@ video {
     padding-right: 2.5rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1089,16 +1082,6 @@ video {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
   }
 }
 
@@ -1164,16 +1147,6 @@ video {
     padding-right: 8rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1200,6 +1173,18 @@ video {
 
   .lg\:h-3\/4 {
     height: 75%;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:h-1\/2 {
+    height: 50%;
+  }
+
+  .lg\:h-2\/4 {
+    height: 50%;
   }
 
   .lg\:grid-cols-3 {
