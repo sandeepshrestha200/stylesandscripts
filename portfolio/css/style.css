@@ -579,8 +579,36 @@ video {
   top: 40%;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.bottom-14 {
+  bottom: 3.5rem;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
 .z-20 {
   z-index: 20;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .my-2 {
@@ -629,6 +657,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -727,10 +759,6 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.scroll-smooth {
-  scroll-behavior: smooth;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -797,6 +825,10 @@ video {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D018\] {
+  background-color: #D018;
+}
+
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
@@ -839,6 +871,10 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-4 {
@@ -886,12 +922,29 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pr-0 {
   padding-right: 0px;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-center {
@@ -904,6 +957,10 @@ video {
 
 .text-justify {
   text-align: justify;
+}
+
+.align-baseline {
+  vertical-align: baseline;
 }
 
 .align-middle {
@@ -1012,6 +1069,11 @@ video {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .hover\:text-\[\#D01840\]:hover {
   --tw-text-opacity: 1;
   color: rgb(208 24 64 / var(--tw-text-opacity));
@@ -1086,6 +1148,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
+  .md\:right-14 {
+    right: 3.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1173,14 +1243,6 @@ video {
 
   .lg\:h-3\/4 {
     height: 75%;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-1\/2 {
-    height: 50%;
   }
 
   .lg\:h-2\/4 {
